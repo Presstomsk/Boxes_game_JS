@@ -1,0 +1,36 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 2s;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    transition-timing-function: linear;
+    position: absolute;
+    left: 0%;
+    top: 0%;    
+  }
+
+body {
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+#timer {
+    user-select: none;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    justify-content: center;   
+    align-items: center; 
+    background-color: white;
+    margin: 10px;
+    
+}
